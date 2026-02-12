@@ -2,6 +2,7 @@ import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { Welcome } from "../components/Welcome";
+import { Login } from "../components/Login";
 
 export const Home = () => {
 
@@ -16,6 +17,7 @@ export const Home = () => {
         {/*Main Content */}
         <main>
             <Welcome />
+            <Login />
         </main>
 
 

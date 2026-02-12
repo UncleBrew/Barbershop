@@ -6,7 +6,8 @@ const navItems = [
     {name: "Home", href: "#home"},
     {name: "About", href: "#about"},
     {name: "Contact", href: "#contact"},
-    {name: "Appointment", href: "#appointment"}
+    {name: "Login", href: "#login"}
+
 ]
 
 export const NavBar = () => {
