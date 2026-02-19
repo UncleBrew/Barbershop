@@ -3,6 +3,7 @@ import { NavBar } from "../components/NavBar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { Welcome } from "../components/Welcome";
 import { Login } from "../components/Login";
+import { About } from "../components/About";
 
 export const Home = () => {
 
@@ -17,6 +18,7 @@ export const Home = () => {
         {/*Main Content */}
         <main>
             <Welcome />
+            <About />
             <Login />
         </main>
 
