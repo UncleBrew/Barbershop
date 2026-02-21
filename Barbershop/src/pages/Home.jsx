@@ -4,6 +4,7 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import { Welcome } from "../components/Welcome";
 import { Login } from "../components/Login";
 import { About } from "../components/About";
+import { Services } from "../components/Services";
 
 export const Home = () => {
 
@@ -19,6 +20,7 @@ export const Home = () => {
         <main>
             <Welcome />
             <About />
+            <Services />
             <Login />
         </main>
 
