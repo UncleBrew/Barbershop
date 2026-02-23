@@ -13,7 +13,7 @@ export const About = () => {
 
                 <div className="flex flex-items items-center">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">An Original Barber</h3>
+                        <h3 className="text-2xl font-semibold">An <span className="text-primary">Original</span> Barber</h3>
                         <p className="text-muted-foreground">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -24,24 +24,31 @@ export const About = () => {
                             culpa qui officia deserunt mollit anim id est laborum.
                         </p>
 
-                        <div className="container max-x-4xl mx-auto text-center z-10 ">
+                        <div className="flex flex-col max-x-4xl mx-auto z-10 ">
                             <div className="space-y-6">
 
-                                <img src="src\images\download.jpg" className="mx-auto" />
-                                <h3 className="text-2xl font-semibold"> Craftmanship and Class</h3>
+
+                            <div className="flex flex-col space-y-6 items-start">
+                                <h3 className="text-2xl font-semibold"> Craftmanship and <span className="text-primary">Class</span></h3>
+                                <img src="src\images\download.jpg"  />
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
+                            </div>
 
-                                <img src="src\images\download (2).jpg" className="mx-auto" />
-                                <h3 className="text-2xl font-semibold">Define Your Edge</h3>
+                            <div className="flex flex-col space-y-6 items-start ">
+
+                                <h3 className="text-2xl font-semibold">Define <span className="text-primary">Your</span> Edge</h3>
+                                <img src="src\images\download (2).jpg" />
+                                
 
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                                 </p>
+                            </div>
 
                             </div>
 
@@ -50,7 +57,7 @@ export const About = () => {
 
 
                         <div>
-                            <a href="#appointment" className="button">
+                            <a href="#services" className="button">
                                 {" "}
                                 Set Up An Appointment
                             </a>

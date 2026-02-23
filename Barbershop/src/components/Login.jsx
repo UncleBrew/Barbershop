@@ -18,7 +18,6 @@ export const Login = () => {
 
             <form className="space-y-6">
                 <div>
-                    <label htmlFor="name" className="block text-sm font-medium mb-2">{" "} Your Email</label>
                     <input
                         type="text"
                         id="email"
