@@ -14,7 +14,7 @@ export const About = () => {
                 <div className="flex flex-items items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">An <span className="text-primary">Original</span> Barber</h3>
-                        <p className="text-muted-foreground">
+                        <p className="text-muted-foreground font-semibold">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -25,29 +25,36 @@ export const About = () => {
                         </p>
 
                         <div className="flex flex-col max-x-4xl mx-auto z-10 ">
+                            
                             <div className="space-y-6">
+                                 <h3 className="text-2xl font-semibold"> Craftmanship and <span className="text-primary">Class</span></h3>
 
 
-                            <div className="flex flex-col space-y-6 items-start">
-                                <h3 className="text-2xl font-semibold"> Craftmanship and <span className="text-primary">Class</span></h3>
-                                <img src="src\images\download.jpg"  />
-                                <p>
+                            <div className="flex flex-col md:flex-row items-center gap-8">
+                                <img src="/images/barber-bg2.jpg"  className="w-full md: w-1/2 rounded-lg"/>
+                                <p className="font-semibold md:w-1/2">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </div>
 
-                            <div className="flex flex-col space-y-6 items-start ">
-
+                            <div className="space-y-6">
                                 <h3 className="text-2xl font-semibold">Define <span className="text-primary">Your</span> Edge</h3>
-                                <img src="src\images\download (2).jpg" />
+                            
+                            <div className="flex flex-col md:flex-row-reverse items-center gap-8"> 
+                                <img src="/images/barber-bg3.jpg" className="w-full md:w-1/2 rounded-lg" />
                                 
 
-                                <p>
+                
+
+                                <p className="font-semibold md:w-1/2">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                                 </p>
+
+                                </div>
+
                             </div>
 
                             </div>

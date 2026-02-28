@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 @theme {
+  --background: url("/images/barber-bg.jpg")
   --color-border: hsl(var(--border));
+  
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
-
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
 
@@ -53,7 +54,7 @@
   }
 
   * {
-    @apply border-border;
+    border-color: hsl(var(--border))
   }
 
   html {
@@ -61,13 +62,15 @@
   }
 
   body{
-    @apply bg-background transition-colors duration-300;
+    @apply text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
 
-    background-image: url("src\images\download (1).jpg");
+    background:
+    linear-gradient(hsl(var(--background)), hsl(var(--background))),
+    url("/images/barber-bg3.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+
   }
 }
 
